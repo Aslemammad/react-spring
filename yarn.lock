@@ -2483,8 +2483,10 @@ ajv@^6.5.5:
     uri-js "^4.2.2"
 
 "animated@link:packages/animated":
-  version "0.0.0"
-  uid ""
+  version "9.0.0-rc.3"
+  dependencies:
+    react-layout-effect "^1.0.1"
+    shared "link:packages/shared"
 
 ansi-256-colors@^1.1.0:
   version "1.1.0"
@@ -3718,8 +3720,12 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
 "core@link:packages/core":
-  version "0.0.0"
-  uid ""
+  version "9.0.0-rc.3"
+  dependencies:
+    animated "link:packages/animated"
+    react-layout-effect "^1.0.1"
+    shared "link:packages/shared"
+    use-memo-one "^1.1.0"
 
 cosmiconfig@^5.0.5, cosmiconfig@^5.0.7, cosmiconfig@^5.1.0:
   version "5.2.1"
@@ -5404,9 +5410,9 @@ inherits@2, inherits@2.0.4, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.3:
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
 ini@^1.3.2, ini@^1.3.4:
-  version "1.3.5"
-  resolved "https://registry.npmjs.org/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 init-package-json@^1.10.3:
   version "1.10.3"
@@ -9520,8 +9526,11 @@ setprototypeof@1.1.1:
   integrity sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
 
 "shared@link:packages/shared":
-  version "0.0.0"
-  uid ""
+  version "9.0.0-rc.3"
+  dependencies:
+    "@alloc/types" "^1.2.1"
+    fluids "^0.1.6"
+    tslib "^1.11.1"
 
 shebang-command@^1.2.0:
   version "1.2.0"

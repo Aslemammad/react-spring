@@ -2483,8 +2483,10 @@ ajv@^6.5.5:
     uri-js "^4.2.2"
 
 "animated@link:packages/animated":
-  version "0.0.0"
-  uid ""
+  version "9.0.0-rc.3"
+  dependencies:
+    react-layout-effect "^1.0.1"
+    shared "link:packages/shared"
 
 ansi-256-colors@^1.1.0:
   version "1.1.0"
@@ -3718,8 +3720,12 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
 "core@link:packages/core":
-  version "0.0.0"
-  uid ""
+  version "9.0.0-rc.3"
+  dependencies:
+    animated "link:packages/animated"
+    react-layout-effect "^1.0.1"
+    shared "link:packages/shared"
+    use-memo-one "^1.1.0"
 
 cosmiconfig@^5.0.5, cosmiconfig@^5.0.7, cosmiconfig@^5.1.0:
   version "5.2.1"
@@ -6746,9 +6752,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.2, lodash@^4.17.5, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1:
-  version "4.17.15"
-  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 lolex@^5.0.0:
   version "5.1.2"
@@ -9520,8 +9526,11 @@ setprototypeof@1.1.1:
   integrity sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
 
 "shared@link:packages/shared":
-  version "0.0.0"
-  uid ""
+  version "9.0.0-rc.3"
+  dependencies:
+    "@alloc/types" "^1.2.1"
+    fluids "^0.1.6"
+    tslib "^1.11.1"
 
 shebang-command@^1.2.0:
   version "1.2.0"
